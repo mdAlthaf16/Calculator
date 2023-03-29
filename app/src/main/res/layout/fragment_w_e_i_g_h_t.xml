@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ec4b5"
+    android:padding="10dp"
+    tools:context=".Fragments.WEIGHT_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/num_bg_1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/numberPanel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/display_values"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_bg_2"
+            android:gravity="center"
+            android:hint="@string/conversion_value"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/milk_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_bg_4"
+            android:hint="@string/enter_any_value"
+            android:padding="20dp"
+            android:textAlignment="center"
+            android:textSize="19sp"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/custom_bg_5"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/litter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/is_checked"
+                android:button="@color/design_default_color_background"
+                android:text="@string/litre"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+
+            <RadioButton
+                android:id="@+id/kg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/is_checked"
+                android:button="@color/design_default_color_background"
+                android:text="@string/kg"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+
+            <RadioButton
+                android:id="@+id/clear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/is_checked"
+                android:button="@color/design_default_color_background"
+                android:text="@string/clear"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/numberPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf">
+
+            <android.widget.Button
+                android:id="@+id/num7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/seven"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <android.widget.Button
+                android:id="@+id/num8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/eight"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <android.widget.Button
+                android:id="@+id/num9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/nine"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            tools:ignore="UselessLeaf">
+
+            <android.widget.Button
+                android:id="@+id/num4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/four"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <android.widget.Button
+                android:id="@+id/num5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/five"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+            <android.widget.Button
+                android:id="@+id/num6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/num_bg_1"
+                android:padding="15dp"
+                android:text="@string/six"
+                android:textColor="#8A000000"
+                android:textSize="25sp"
+                tools:ignore="VisualLintButtonSize" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:orientation="horizontal"
+                    tools:ignore="UselessLeaf">
+
+                    <android.widget.Button
+                        android:id="@+id/num1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/one"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <android.widget.Button
+                        android:id="@+id/num2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/two"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <android.widget.Button
+                        android:id="@+id/num3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/three"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="UselessLeaf">
+
+                    <android.widget.Button
+                        android:id="@+id/dotBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/dot"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <android.widget.Button
+                        android:id="@+id/num0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="4dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/zero"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+                    <android.widget.Button
+                        android:id="@+id/clearLastText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/num_bg_1"
+                        android:padding="15dp"
+                        android:text="@string/c"
+                        android:textColor="#8A000000"
+                        android:textSize="25sp"
+                        tools:ignore="VisualLintButtonSize" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

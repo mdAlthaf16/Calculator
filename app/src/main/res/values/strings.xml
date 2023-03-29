@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Conversion</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="dot">.</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+    <string name="next">--></string>
+
+    <string name="snf">Snf</string>
+    <string name="clr">Clr</string>
+    <string name="fat">Fat</string>
+    <string name="weight">Weight</string>
+
+    <string name="credentials">Credentials</string>
+
+    <string name="conversion_value">Conversion Value</string>
+    <string name="enter_any_value">Enter any value</string>
+    <string name="litre">Litre</string>
+    <string name="kg">Kg</string>
+    <string name="clear">Clear</string>
+
+    <string name="kerala">Kerala</string>
+    <string name="tamilNadu">Tamil Nadu</string>
+
+    <string name="gujarat">Gujarat</string>
+    <string name="westBengal">West Bengal</string>
+    <string name="orissa">Orissa</string>
+    <string name="maharashtra">Maharashtra</string>
+    <string name="goa">Goa</string>
+
+    <string name="assam">Assam</string>
+    <string name="restOfBihar">Rest of Bihar</string>
+
+    <string name="mp">Madhya Pradesh</string>
+    <string name="up">Uttar Pradesh</string>
+    <string name="punjab">Punjab</string>
+    <string name="haryana">Haryana</string>
+
+    <string name="karnataka">Karnataka</string>
+    <string name="ap">Andhra Pradesh</string>
+
+    <string name="drawerOpen">Drawer Open</string>
+    <string name="drawerClose">Drawer Close</string>
+    <string name="info_dialog">Info Dialog</string>
+    <string name="text_1">Text 1</string>
+    <string name="text_2">Text 2</string>
+    <string name="information">Information</string>
+    <string name="state">State :</string>
+    <string name="state_name">State Name</string>
+    <string name="snff">SNF % :</string>
+    <string name="clrr">CLR % :</string>
+    <string name="questionMark">\?</string>
+
+
+</resources>

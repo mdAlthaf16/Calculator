@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="h"
+    >
+
+      <item
+          android:id="@+id/kerala"
+          android:title="@string/kerala"
+          app:actionViewClass="android.widget.Switch"
+          android:checkable="true"
+
+          />
+      <item
+          android:id="@+id/tamilNadu"
+          android:title="@string/tamilNadu"
+          app:actionViewClass="android.widget.Switch" />
+      <item
+          android:id="@+id/gujarat"
+          android:title="@string/gujarat"
+          app:actionViewClass="android.widget.Switch" />
+      <item
+          android:id="@+id/westBengal"
+          android:title="@string/westBengal"
+          app:actionViewClass="android.widget.Switch" />
+      <item
+          android:id="@+id/orissa"
+          android:title="@string/orissa"
+          app:actionViewClass="android.widget.Switch" />
+      <item
+          android:id="@+id/maharashtra"
+          android:title="@string/maharashtra"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/goa"
+          android:title="@string/goa"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/assam"
+          android:title="@string/assam"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/restOfBihar"
+          android:title="@string/restOfBihar"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/mp"
+          android:title="@string/mp"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/ap"
+          android:title="@string/ap"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/up"
+          android:title="@string/up"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/punjab"
+          android:title="@string/punjab"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/haryana"
+          android:title="@string/haryana"
+          app:actionViewClass="android.widget.Switch"/>
+      <item
+          android:id="@+id/karnataka"
+          android:title="@string/karnataka"
+          app:actionViewClass="android.widget.Switch"/>
+
+
+
+</menu>

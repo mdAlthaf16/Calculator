@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="h"
     >
 
       <item
           android:id="@+id/kerala"
           android:title="@string/kerala"
-          app:actionViewClass="android.widget.Switch"
-          android:checkable="true"
+          app:actionViewClass="android.widget.Switch" />
 
-          />
       <item
           android:id="@+id/tamilNadu"
           android:title="@string/tamilNadu"

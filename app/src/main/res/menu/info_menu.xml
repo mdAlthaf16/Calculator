@@ -5,6 +5,6 @@
     <item
         android:id="@+id/infoDialog"
         android:title="@string/info_dialog"
-        android:icon="@drawable/baseline_info_24"
+        android:icon="@drawable/outline_info_icon"
         app:showAsAction="ifRoom" />
 </menu>

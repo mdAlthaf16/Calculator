@@ -115,7 +115,7 @@ public class CLR_Fragment extends Fragment implements View.OnClickListener {
 
                 // display result
 
-                displayResultTextView.setText(clrResult + " % CLR\n\n" + textTwoEditText.getText().toString() + " % FAT\n\n" + textOneEditText.getText().toString() + " % SNF\n\n" + tsResult + " % Total Solid");
+                displayResultTextView.setText(clrResult + " % CLR <--\n\n" + textTwoEditText.getText().toString() + " % FAT\n\n" + textOneEditText.getText().toString() + " % SNF\n\n" + tsResult + " % Total Solid");
 
 
             } else if (!textOneEditText.getText().toString().isEmpty()) {

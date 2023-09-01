@@ -56,7 +56,5 @@ public class Formula {
         return totalSolid;
     }
 
-    public void sampleText(String message) {
-        System.out.println(message);
-    }
+
 }

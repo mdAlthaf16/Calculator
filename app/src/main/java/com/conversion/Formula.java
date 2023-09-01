@@ -63,4 +63,8 @@ public class Formula {
     public void sampleGitTest(String message) {
         System.out.println(message);
     }
+
+    public void s() {
+        System.out.println("bla");
+    }
 }

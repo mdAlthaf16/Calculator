@@ -56,4 +56,7 @@ public class Formula {
         return totalSolid;
     }
 
+    public void sampleGitTest() {
+        System.out.println("Testing");
+    }
 }

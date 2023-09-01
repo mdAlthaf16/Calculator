@@ -1,4 +1,7 @@
 package com.conversion;
+
+import android.widget.Toast;
+
 public class Formula {
 
 
@@ -60,7 +63,4 @@ public class Formula {
         System.out.println("Testing");
     }
 
-    public void sampleGitTest(String message) {
-        System.out.println(message);
-    }
 }

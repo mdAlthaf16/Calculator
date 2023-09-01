@@ -1,7 +1,4 @@
 package com.conversion;
-
-import android.widget.Toast;
-
 public class Formula {
 
 
@@ -71,7 +68,4 @@ public class Formula {
         System.out.println("bla");
     }
 
-    public void s() {
-        System.out.println("bla");
-    }
 }

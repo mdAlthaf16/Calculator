@@ -70,4 +70,8 @@ public class Formula {
     public void s() {
         System.out.println("bla");
     }
+
+    public void s() {
+        System.out.println("bla");
+    }
 }

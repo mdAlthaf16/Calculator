@@ -56,16 +56,4 @@ public class Formula {
         return totalSolid;
     }
 
-    public void sampleGitTest() {
-        System.out.println("Testing");
-    }
-
-    public void commitTestOne() {
-        System.out.println("Testing");
-    }
-
-    public void s() {
-        System.out.println("bla");
-    }
-
 }

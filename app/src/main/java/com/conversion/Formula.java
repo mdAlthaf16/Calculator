@@ -63,4 +63,7 @@ public class Formula {
         System.out.println("Testing");
     }
 
+    public void commitTestOne() {
+        System.out.println("Testing");
+    }
 }
